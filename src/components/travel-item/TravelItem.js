@@ -1,6 +1,7 @@
 import React from 'react';
 import {useParams} from "react-router-dom";
 import {data} from "../../serverData/data";
+import placeholder from '../img/placeholder.webp'
 import './TravelItem.css'
 
 const TravelItem = () => {
@@ -10,7 +11,7 @@ const TravelItem = () => {
     return (
         <div className="travel-card">
             <div className="image">
-                <img src="http://localhost:8081/src/serverData/img/placeholder.webp" alt=""/>
+                <img src={placeholder} alt=""/>
             </div>
             <p>Название: {data[card].name}</p>
             <p>Описание: {data[card].desc}</p>

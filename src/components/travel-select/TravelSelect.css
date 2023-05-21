@@ -5,7 +5,7 @@
     font-family: Bahnschrift;
 }
 .travel-block-img div{
-    background: url("http://localhost:8081/src/serverData/img/placeholder.webp") center;
+    background: url("../img/placeholder.webp") center;
     background-size: 100%;
     width: 14em;
     height: 14em;
