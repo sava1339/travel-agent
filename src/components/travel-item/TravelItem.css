@@ -1,0 +1,22 @@
+.travel-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 1em 0.5em 1em;
+    background: #d9d9d9;
+    max-width: 35%;
+    border-radius: 0.5em;
+    margin: auto;
+    font-size: 21px;
+    font-family: Bahnschrift;
+}
+.travel-card p:not(:last-child){
+    margin-bottom: 1em;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.travel-card img{
+    width: 50%;
+}

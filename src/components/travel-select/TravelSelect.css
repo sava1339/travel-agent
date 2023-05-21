@@ -1,0 +1,38 @@
+.travels{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Bahnschrift;
+}
+.travel-block-img div{
+    background: url("http://localhost:8081/src/serverData/img/placeholder.webp") center;
+    background-size: 100%;
+    width: 14em;
+    height: 14em;
+    border-radius: 50%;
+}
+.travel-block-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+.travel-block-info{
+    padding-top: 1em;
+    text-align: center;
+}
+.travel-block{
+    margin-top: 2em;
+    width: 16em;
+    height: 20em;
+    background: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+}
+.travel-block:hover{
+    cursor: pointer;
+}
+.travel-block:hover div{
+    transition: background-size 0.6s;
+    background-size: 150%;
+}
